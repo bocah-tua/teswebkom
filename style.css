@@ -1,0 +1,67 @@
+*{
+   margin:0px;
+    font-family: sans-serif;
+}
+.KaroselKegiatanTerkini{
+    color:black;
+}
+
+.Navigation{
+    display:flex;
+    background-color:grey;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    height:80px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+
+
+.galeryProduct{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap:5px;
+    place-items: center;
+}
+.product{
+    background-color: rgba(34, 200, 225, 0.201);
+}
+h1{
+    text-align: center;
+}
+.mediaSosial{
+    display:flex;
+    justify-content: center;
+    font-weight: 200;
+    background-color: goldenrod;
+}
+.menu_medsos{
+    margin:50px;
+}
+h5{
+    text-align: center;
+    font-weight: 200;
+    background-color: goldenrod;
+}
+.product{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;   
+}
